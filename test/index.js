@@ -1,6 +1,6 @@
 const _ = require("lodash");
 const assert = require("chai").assert;
-const responses = require("../index.js");
+const responses = require("..");
 
 describe("turbot-responses", function() {
   describe("Format", function() {
