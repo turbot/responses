@@ -94,6 +94,11 @@ module.exports = {
     message: "Locked"
   },
 
+  badConfiguration: {
+    code: 424,
+    message: "Bad Configuration"
+  },
+
   tooManyRequests: {
     code: 429,
     message: "Too many requests."
