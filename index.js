@@ -1,3 +1,6 @@
+/**
+ * Description from: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+ */
 module.exports = {
   inProgress: {
     code: 100,
@@ -114,8 +117,25 @@ module.exports = {
     message: "Not Implemented"
   },
 
+  /**
+   * The server is currently unavailable (because it is overloaded or down for maintenance).
+   * Generally, this is a temporary state.
+   */
   unavailable: {
     code: 503,
     message: "Unavailable"
+  },
+
+  /**
+   * This is a Turbot custom error message (not standard) that can be used to trigger SNS retry.
+   *
+   * SNS only retries error in the 500 - 599 range: https://docs.aws.amazon.com/sns/latest/dg/DeliveryPolicies.html
+   *
+   * Or code outside 200 - 599. I think an error within 500 - 599 seems to make more sense to indicate
+   * to SNS to try again later. We can also 
+   */
+  tryAgainLater: {
+    code: 549,
+    message: "Try again later"
   }
 };
