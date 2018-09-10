@@ -135,7 +135,7 @@ module.exports = {
    * to SNS to try again later.
    */
   tryAgainLater: {
-    code: 549,
+    code: 529,
     message: "Try again later"
   }
 };
