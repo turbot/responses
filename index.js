@@ -132,7 +132,7 @@ module.exports = {
    * SNS only retries error in the 500 - 599 range: https://docs.aws.amazon.com/sns/latest/dg/DeliveryPolicies.html
    *
    * Or code outside 200 - 599. I think an error within 500 - 599 seems to make more sense to indicate
-   * to SNS to try again later. We can also 
+   * to SNS to try again later.
    */
   tryAgainLater: {
     code: 549,
