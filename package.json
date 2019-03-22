@@ -1,8 +1,7 @@
 {
   "name": "@turbot/responses",
   "author": "Turbot HQ, Inc",
-  "version": "5.0.0-alpha.2",
-  "private": true,
+  "version": "5.0.0-beta.1",
   "license": "SEE LICENSE IN LICENSE",
   "main": "index.js",
   "scripts": {
