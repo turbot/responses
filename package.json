@@ -4,6 +4,10 @@
   "version": "5.0.0-beta.1",
   "license": "SEE LICENSE IN LICENSE",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/turbot/responses.git"
+  },
   "scripts": {
     "coverage": "npx nyc npm test",
     "test": "npx mocha"
