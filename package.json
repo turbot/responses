@@ -3,6 +3,7 @@
   "author": "Turbot HQ, Inc",
   "version": "5.0.0",
   "license": "SEE LICENSE IN LICENSE",
+  "description": "Turbot Responses Library",
   "main": "index.js",
   "repository": {
     "type": "git",
