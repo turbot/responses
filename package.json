@@ -1,9 +1,9 @@
 {
   "name": "@turbot/responses",
   "author": "Turbot HQ, Inc",
-  "version": "5.0.0",
-  "license": "SEE LICENSE IN LICENSE",
-  "description": "Turbot Responses Library",
+  "version": "5.0.1",
+  "license": "Apache-2.0",
+  "description": "Standard HTTP response definitions and codes used by various Turbot packages.",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -16,12 +16,12 @@
   "devDependencies": {
     "chai": "4.2.0",
     "eslint": "6.0.1",
-    "eslint-config-prettier": "4.3.0",
-    "eslint-plugin-prettier": "3.1.0",
-    "eslint-plugin-you-dont-need-lodash-underscore": "6.5.0",
+    "eslint-config-prettier": "6.7.0",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-you-dont-need-lodash-underscore": "6.8.0",
     "mocha": "5.2.0",
     "nyc": "14.1.1",
-    "prettier": "1.18.2"
+    "prettier": "1.19.1"
   },
   "dependencies": {}
 }
