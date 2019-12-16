@@ -1,4 +1,5 @@
-# turbot-responses
 
-Standard HTTP Status Code responses for use in Turbot modules and turbot-errors
-in particular.
+# @turbot/responses
+
+Definition of standard responses aligned to HTTP status codes. Used by various
+Turbot modules including @turbot/errors.
