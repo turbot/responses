@@ -1,3 +1,6 @@
+## 5.1.0 [2020-07-30]
+
+* Updated development dependencies.
 
 ## 5.0.1 [2019-12-16]
 
