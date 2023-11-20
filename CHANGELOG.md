@@ -1,3 +1,7 @@
+## 5.3.0 [2023-11-20]
+
+* Updated development dependencies.
+
 ## 5.2.0 [2021-06-07]
 
 * Updated development dependencies.
